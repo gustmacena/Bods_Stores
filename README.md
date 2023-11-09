@@ -31,5 +31,4 @@ Desenvolvemos estratégias de marketing online para atrair clientes, como promo�
 # Entrega e Logística
 Estabelecemos um sistema eficiente de entrega e logística para garantir que os produtos sejam entregues no prazo e em perfeitas condições (terceirizado).
 
-O projeto Bod's Stores visa criar uma plataforma de comércio eletrônico de alto padrão, atendendo a todas as necessidades do público feminino, oferecendo uma ampla variedade de produtos e uma experiência de compra inigualável. Com um compromisso com a qualidade, segurança e satisfação do cliente, estamos empenhados em nos destacar como uma das principais lojas virtuais no mercado.
 
