@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Isso garante que o corpo ocupe toda a altura da tela.*/
+}
+
+.container {
+    width: 100%;
+    /* Ocupa 100% da largura do corpo */
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    color: orange;
+    font-size: 36px;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-title {
+    color: black;
+    font-size: 24px;
+}
+
+.form label,
+.form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    width: calc(100% - 20px);
+    /* Reduzindo o tamanho dos campos */
+    padding: 8px;
+    /* Reduzindo o preenchimento interno */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Garante que o preenchimento e a borda não aumentem a largura total */
+    margin: 0 auto;
+    /* Centraliza horizontalmente os campos */
+}
+
+.btn-login {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    /* Adicionando espaço acima do botão */
+}
+
+.btn-login:hover {
+    background-color: #FFA500;
+}
+
+.signup-link {
+    font-size: 16px;
+    color: orange;
+    /* Adicionando a cor para o link "Cadastrar" */
+}
+
+.signup-link a {
+    color: orange;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

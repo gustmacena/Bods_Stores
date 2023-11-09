@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="../css/carrinho.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <span>Carrinho de compras da <b>Bod's Stores</b></span>
+    </header>
+    <main>
+        <div class="page-title">Seu Carrinho</div>
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produtos</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="../public/images/RIFTA_BACKPACK_Marrom_HL6665_01_standard.png" alt="100" width="200">
+                                    <div class="info">
+                                        <div class="name">Rifta Backpack Marrom</div>
+                                        <div class="category">Categoria: Acessorios</div>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>R$ 399,99</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class='bx bx-minus'></i></button>
+                                    <span>1</span>
+                                    <button><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 399,99</td>
+                            <td>
+                                <button class="remove">
+                                    <i class='bx bx-x'></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="../public/images/Tênis_Nike_Gamma_Force_Feminino.png" alt="100" width="200">
+                                    <div class="info">
+                                        <div class="name">Tênis Nike Gamma Force</div>
+                                        <div class="category">Categoria: Calçados</div>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>R$ 699,99</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class='bx bx-minus'></i></button>
+                                    <span>1</span>
+                                    <button><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 699,99</td>
+                            <td>
+                                <button class="remove">
+                                    <i class='bx bx-x'></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="../public/images/camiseta-manga-comprida.jpg" alt="100" width="200">
+                                    <div class="info">
+                                        <div class="name">Camiseta Manga Comprida</div>
+                                        <div class="category">Categoria: Moda Feminina</div>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>R$ 117,90</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class='bx bx-minus'></i></button>
+                                    <span>1</span>
+                                    <button><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 117,90</td>
+                            <td>
+                                <button class="remove">
+                                    <i class='bx bx-x'></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="../public/images/saia-plisada.jpg" alt="100" width="200">
+                                    <div class="info">
+                                        <div class="name">Saia Plisada</div>
+                                        <div class="category">Categoria: Moda Feminina</div>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>R$ 117,90</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class='bx bx-minus'></i></button>
+                                    <span>1</span>
+                                    <button><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 117,90</td>
+                            <td>
+                                <button class="remove">
+                                    <i class='bx bx-x'></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header class="header-special">Resumo de Compra</header>
+                    <div class="info">
+                        <div class="gray-background"><span>SubTotal</span><span>R$ 1.335,78</span></div>
+                        <div class="gray-background"><span>Frete</span><span>Gratuito</span></div>
+                        <div>
+                            <button class="gray-button">Adicionar cupom de desconto <i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <footer>
+                        <span>Total</span>
+                        <span>R$ 1.335,78</span>
+                    </footer>
+                </div>
+                <button class="green-button">Finalizar Compra</button>
+            </aside>                      
+        </div>
+    </main>
+
+
+
+
+    <script src="../public/js/carrinho.js"></script>
+</body>
+
+</html>

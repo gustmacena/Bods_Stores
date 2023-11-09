@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodes Stores - Login</title>
+    <link rel="stylesheet" href="../css/login.css"	>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="logo">Bods Stores</h1>
+        <div class="form">
+            <h2 >Login</h2>
+            <form id="login-form" action="login">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Seu endereço de email" required>
+                <!-- Adicione o elemento <span> para exibir a mensagem de validação do email -->
+                <span id="email-error" class="error-message"></span>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
+
+                <button type="submit" class="btn-login" onclick="enviar()">Entrar</button>
+            </form>
+            <p class="signup-link">Não tem uma conta? <a href="cadastro.html">Cadastrar</a></p>
+        </div>
+    </div>
+    <script src="../public/js/login.js"></script>
+</body>
+
+</html>

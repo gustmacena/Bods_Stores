@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <title>Loja Virtual</title>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="container-fluid">
+    <!-- container -->
+    <section class="container">
+      <!-- row -->
+      <article class="row d-flex align-items-center">
+
+        <!-- logo -->
+        <a href="./" class="col-md-2 d-flex justify-content-center">
+          <img src="../public/images/Logo Bods Stores (preto).png" class="img-fluid" alt="Logo da empresa - Bods Stores">
+        </a>
+        <!-- buscacor -->
+        <form action="#" class="col-md-7 d-flex align-items-center">
+          <input type="text" name="name" placeholder="Procurar Roupas aqui">
+          <button class="d-flex align-items-center">
+          </button>
+        </form>
+
+        <!-- administrativo do cliente -->
+        <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
+          <li class="nav-item">
+            <a href="login.html">
+              Entrar
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <span class="notificacao d-flex align-items-center justify-content-center">0</span>
+            <a href="#">
+              Carrinho
+            </a>
+          </li>
+        </ul>
+        <!-- end administrativo do cliente -->
+      </article>
+      <!-- row -->
+    </section>
+    <!-- end container -->
+  </header>
+  <!-- end header -->
+
+  <!--menu do site -->
+  <nav class="container-fluid nav-produtos ">
+    <!-- container -->
+    <section class="container">
+      <!-- menu -->
+      <ul class="nav">
+        <!-- lista de itens -->
+        <li class="col-xl-3 col-lg-2 col-md-3 nav-item align-items-center d-flex justify-content-center">
+          <a href="moda_feminina.html">
+            Moda Feminina
+          </a>
+          <!-- submenu 1-->
+
+          <!-- end submenu-->
+        </li>
+        <!-- lista de itens -->
+        <li class="col-xl-3 col-lg-2 col-md-3 nav-item align-items-center d-flex justify-content-center">
+          <a href="calcados.html">
+            Calcados Feminino
+          </a>
+          <!-- submenu 2-->
+
+          <!-- lista de itens -->
+        <li class="col-xl-3 col-lg-2 col-md-3 nav-item align-items-center d-flex justify-content-center">
+          <a href="lingerie.html">
+            Lingerie
+          </a>
+          <!-- submenu 3-->
+        <li class="col-xl-3 col-lg-2 col-md-3 nav-item align-items-center d-flex justify-content-center">
+          <a href="acessorios.html">
+            Acessorios
+          </a>
+
+          <!-- end submenu-->
+        </li>
+
+        <!-- menu -->
+    </section>
+    <!-- end container -->
+  </nav>
+  <!-- end menu do site -->
+
+  <!-- main -->
+  <main>
+    <!-- banners promocionais rotativos -->
+    <section id="banners-promocionais" class="container carousel slide" data-ride="carousel">
+      <!-- imagens -->
+      <article class="carousel-inner">
+        <figure class="carousel-item active">
+          <!-- <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="Banner Promocional - Lançamento Verão">-->
+        </figure>
+
+        <figure class="carousel-item">
+          <img src=" class=" d-block w-100" alt="Banner Promocional - Diversos itens da loja">
+        </figure>
+      </article>
+
+      <!-- prev "botões das setas"-->
+      <a class="carousel-control-prev" href="#banners-promocionais" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <!-- next "botões das setas"-->
+      <a class="carousel-control-next" href="#banners-promocionais" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </section>
+    <!-- end banners promocionais rotativos -->
+
+    <!-- banners promocionais com 6 colunas -->
+    <section class="container banners-promocionais-statico">
+      <!-- row -->
+      <section class="row">
+        <!-- banner -->
+        <article class="col-md-6">
+          <div class="banners-promocionais-statico-12x d-flex align-items-center">
+            <p>
+              Parcele em até <br>
+              <strong> 12x sem juros </strong>
+            </p>
+          </div>
+        </article>
+
+        <!-- banner -->
+        <article class="col-md-6">
+          <div class="banners-promocionais-statico-todo-br d-flex align-items-center">
+            <p>
+              Entrega para <br>
+              <strong> todo Brasil</strong>
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- end row -->
+    </section>
+    <!-- end banners promocionais com 6 colunas -->
+
+    <!-- Container de Produtos (utilize flexbox) -->
+    <div class="container produtos">
+      <!-- Title -->
+      <h1 class="text-center">Mais Populares</h1>
+
+      <!-- Row de Produtos -->
+      <div class="row">
+        <!-- Produto 1 -->
+        <div class="row">
+          <!-- Produto 1 -->
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Tenis_Nike_Gamma_Force_Feminino.png" class="img-fluid" alt="Tênis Nike Gamma Force Feminino">
+              <article class="produtos-itens">
+                <h2>Tênis Nike Gamma Force Feminino</h2>
+                <strong class="produtos-preco">R$ 699,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <!-- Produto 2 -->
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Tenis_Nike_Zoom.png" class="img-fluid" alt="Tênis Nike Zoom">
+              <article class="produtos-itens">
+                <h2>Tênis Nike Zoom</h2>
+                <strong class="produtos-preco">R$  909,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <!-- Produto 3 -->
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Tenis_Forum_Mod_Low_Branco.png" class="img-fluid" alt="Tenis Forum Mod Low Branco">
+              <article class="produtos-itens">
+                <h2>Tenis Forum Mod Low Branco</h2>
+                <strong class="produtos-preco">R$ 899,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <!-- Produto 4 -->
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Tenis_Nike_Free_Metcon_5_Feminino.png" class="img-fluid" alt="Tenis Nike Free Metcon 5">
+              <article class="produtos-itens">
+                <h2>Tenis Nike Free Metcon 5</h2>
+                <strong class="produtos-preco">R$ 899,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Chinelo-Nike-Calm-Feminino.png" class="img-fluid" alt="Chinelo Nik e Calm">
+              <article class="produtos-itens">
+                <h2>Chinelo Nik e Calm</h2>
+                <strong class="produtos-preco">R$ 399,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Chinelo_Branco_Nike_Calm_Feminino.png" class="img-fluid" alt="Chinelo Branco Nike Calm">
+              <article class="produtos-itens">
+                <h2>Chinelo Branco Nike Calm</h2>
+                <strong class="produtos-preco">R$ 399,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Chinelo_Jordan_Hex_Feminino.png" class="img-fluid" alt="Chinelo Jordan Hex">
+              <article class="produtos-itens">
+                <h2>Chinelo Jordan Hex</h2>
+                <strong class="produtos-preco">R$ 499,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Chinelo_Nike_Victori_One_Feminino.png" class="img-fluid" alt="Chinelo Nike Victori One">
+              <article class="produtos-itens">
+                <h2>Chinelo Nike Victori One</h2>
+                <strong class="produtos-preco">R$ 159,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Chinelo_Adilette_Aqua_UNISSEX_Cinza_EG4160_01_standard.png" class="img-fluid" alt="Chinelo Adilette Cinza">
+              <article class="produtos-itens">
+                <h2>Chinelo Adilette Cinza</h2>
+                <strong class="produtos-preco">R$ 219,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Tenis_Pureboost_22_Preto_HQ8581_01_standard.png" class="img-fluid" alt="Tenis Pureboost 22 Preto">
+              <article class="produtos-itens">
+                <h2>Tenis Pureboost 22 Preto</h2>
+                <strong class="produtos-preco">R$ 899,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Tenis_Superstar_Preto_EG4959_01_standard.png" class="img-fluid" alt="Tenis Superstar Preto">
+              <article class="produtos-itens">
+                <h2>Tenis Superstar Preto</h2>
+                <strong class="produtos-preco">R$ 499,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="produtos-container">
+              <img src="../public/images/Tenis_Run_Falcon_2.0_Cinza_GV9574_01_standard.png" class="img-fluid" alt="Tenis Run Falcon">
+              <article class="produtos-itens">
+                <h2>Tenis Run Falcon</h2>
+                <strong class="produtos-preco">R$ 169,99</strong>
+              </article>
+              <button>Adicionar ao Carrinho</button>
+            </div>
+          </div>
+  
+        </div>
+    </div>
+    <!-- end container produtos -->
+  </main>
+  <!-- end main -->
+
+  <!-- footer -->
+  <footer class="container-fluid">
+    <section class="container">
+      <section class="row">
+        <!-- atendimento -->
+        <article class="col-md-4">
+          <h4>
+            Atendimento
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="tel:+55119999999999">(11)9 9999 9999</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="mailto:contato@sualoja.com.br">contato@sualoja.com.br</a>
+            </li>
+
+            <li class="nav-item">
+              Horário de atendimento on-line: <br>Segunda à sexta das 9:00 até as 17:30h
+            </li>
+          </ul>
+        </article>
+        <!-- end atendimento -->
+
+        <!-- acesso rapido -->
+        <article class="col-md-3">
+          <h4>
+            Acesso rápido
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#">Minha conta</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Meus pedidos</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Rastrear meus pedidos</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Troca e devoluções</a>
+            </li>
+          </ul>
+        </article>
+        <!-- end acesso rapido -->
+
+        <!-- institucional -->
+        <article class="col-md-3">
+          <h4>
+            Institucional
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#">Sobre a loja</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Política e privacidade</a>
+            </li>
+          </ul>
+        </article>
+        <!-- end institucional -->
+
+      </section>
+    </section>
+  </footer>
+  <!-- end footer -->
+
+  <!-- Arquivos js -->
+  <script src="../public/js/index.js"></script>
+
+
+</body>
+
+</html>
